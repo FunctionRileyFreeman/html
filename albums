@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Photo Albums</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .album-item {
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .album-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .album-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .album-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .album-description {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>My Photo Albums</h1>
+  
+  <div class="album">
+    <div class="album-item">
+      <div class="album-title">Album 1</div>
+      <div class="album-description">Explore breathtaking landscapes and serene vistas captured during our adventures.</div>
+      <img src="photo/5.jpeg" alt="Captivating landscapes in Album 1" class="album-img"> <!-- Ensure this path and file name are correct -->
+    </div>
+    <div class="album-item">
+      <div class="album-title">Album 2</div>
+      <div class="album-description">A collection of joyful moments and celebrations with loved ones, capturing the essence of happiness.</div>
+      <img src="photo/6.jpeg" alt="Joyful moments in Album 2" class="album-img"> <!-- Ensure this path and file name are correct -->
+    </div>
+    <div class="album-item">
+      <div class="album-title">Album 3</div>
+      <div class="album-description">Dive into the heart of the city with urban explorations and street photography, showcasing the vibrant life of the metropolis.</div>
+      <img src="photo/5.jpeg" alt="Urban exploration in Album 3" class="album-img"> <!-- Ensure this path and file name are correct -->
+    </div>
+    <div class="album-item">
+      <div class="album-title">Album 4</div>
+      <div class="album-description">Discover the wonders of nature through a lens, from the tiniest insect to the vastness of the ocean.</div>
+      <img src="photo/6.jpeg" alt="Nature's wonders in Album 4" class="album-img"> <!-- Ensure this path and file name are correct -->
+    </div>
+    <div class="album-item">
+      <div class="album-title">Album 5</div>
+      <div class="album-description">Immerse yourself in diverse cultures and traditions, capturing the beauty of humanity's heritage.</div>
+      <img src="photo/5.jpeg" alt="Cultural experiences in Album 5" class="album-img">
+    </div>
+    <div class="album-item">
+      <div class="album-title">Album 6</div>
+      <div class="album-description">Marvel at architectural wonders, from ancient ruins to modern skyscrapers, through the art of photography.</div>
+      <img src="photo/6.jpeg" alt="Architectural marvels in Album 6" class="album-img">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

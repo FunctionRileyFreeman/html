@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surreal Photo Collections</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .album-item {
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    text-decoration: none; /* Remove text decoration from links */
+    display: block; /* Make sure the link takes up the entire album item space */
+    color: inherit; /* Inherit text color to avoid default link colors */
+  }
+
+  .album-item:hover {
+    transform: scale(1.05);
+  }
+
+  .album-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .album-title, .album-description {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    color: #222; /* Color for text */
+  }
+
+  .album-description {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Surreal Photo Collections</h1>
+  
+  <div class="album">
+    <!-- Each album item is a clickable link leading to its respective detailed page -->
+    <a href="1.html" class="album-item">
+      <div class="album-title">Album 1</div>
+      <div class="album-description">Explore breathtaking landscapes and serene vistas captured during our adventures.</div>
+      <img src="photo/5.jpeg" alt="Captivating landscapes in Album 1" class="album-img">
+    </a>
+    <a href="2.html" class="album-item">
+      <div class="album-title">Album 2</div>
+      <div class="album-description">A collection of joyful moments and celebrations with loved ones, capturing the essence of happiness.</div>
+      <img src="photo/6.jpeg" alt="Joyful moments in Album 2" class="album-img">
+    </a>
+    <a href="3.html" class="album-item">
+      <div class="album-title">Album 3</div>
+      <div class="album-description">Dive into the heart of the city with urban explorations and street photography, showcasing the vibrant life of the metropolis.</div>
+      <img src="photo/5.jpeg" alt="Urban exploration in Album 3" class="album-img">
+    </a>
+    <a href="4.html" class="album-item">
+      <div class="album-title">Album 4</div>
+      <div class="album-description">Discover the wonders of nature through a lens, from the tiniest insect to the vastness of the ocean.</div>
+      <img src="photo/6.jpeg" alt="Nature's wonders in Album 4" class="album-img">
+    </a>
+    <a href="5.html" class="album-item">
+      <div class="album-title">Album 5</div>
+      <div class="album-description">Immerse yourself in diverse cultures and traditions, capturing the beauty of humanity's heritage.</div>
+      <img src="photo/5.jpeg" alt="Cultural experiences in Album 5" class="album-img">
+    </a>
+    <a href="6.html" class="album-item">
+      <div class="album-title">Album 6</div>
+      <div class="album-description">Marvel at architectural wonders, from ancient ruins to modern skyscrapers, through the art of photography.</div>
+      <img src="photo/6.jpeg" alt="Architectural marvels in Album 6" class="album-img">
+    </a>
+    <!-- Add more albums as needed -->
+  </div>
+</div>
+
+</body>
+</html>
